@@ -3,30 +3,41 @@ source: /Users/qintianxing/.config/skillshare/skills
 extras_source: /Users/qintianxing/.config/skillshare/extras
 mode: copy
 targets:
-    claude:
-        path: /Users/qintianxing/.claude/skills
-    cline:
-        path: /Users/qintianxing/.agents/skills
-    codex:
-        path: /Users/qintianxing/.codex/skills
-    copilot:
-        path: /Users/qintianxing/.copilot/skills
-    cursor:
-        path: /Users/qintianxing/.cursor/skills
-    openclaw:
-        path: /Users/qintianxing/.openclaw/skills
-    trae:
-        path: /Users/qintianxing/.trae/skills
-    trae-cn:
-        path: /Users/qintianxing/.trae-cn/skills
-    universal:
-        path: /Users/qintianxing/.agents/skills
-    warp:
-        path: /Users/qintianxing/.agents/skills
-    witsy:
-        path: /Users/qintianxing/.agents/skills
+  claude:
+    skills:
+      path: /Users/qintianxing/.claude/skills
+  cline:
+    skills:
+      path: /Users/qintianxing/.agents/skills
+  codex:
+    skills:
+      path: /Users/qintianxing/.codex/skills
+  copilot:
+    skills:
+      path: /Users/qintianxing/.copilot/skills
+  cursor:
+    skills:
+      path: /Users/qintianxing/.cursor/skills
+  openclaw:
+    skills:
+      path: /Users/qintianxing/.openclaw/skills
+  trae:
+    skills:
+      path: /Users/qintianxing/.trae/skills
+  trae-cn:
+    skills:
+      path: /Users/qintianxing/.trae-cn/skills
+  universal:
+    skills:
+      path: /Users/qintianxing/.agents/skills
+  warp:
+    skills:
+      path: /Users/qintianxing/.agents/skills
+  witsy:
+    skills:
+      path: /Users/qintianxing/.agents/skills
 ignore:
-    - '**/.DS_Store'
-    - '**/.git/**'
+  - '**/.DS_Store'
+  - '**/.git/**'
 audit:
-    block_threshold: CRITICAL
+  block_threshold: CRITICAL
