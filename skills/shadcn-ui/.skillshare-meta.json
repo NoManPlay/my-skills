@@ -1,0 +1,21 @@
+{
+  "source": "github.com/google-labs-code/stitch-skills/shadcn-ui",
+  "type": "github-subdir",
+  "installed_at": "2026-03-31T11:02:50.38535+08:00",
+  "repo_url": "https://github.com/google-labs-code/stitch-skills.git",
+  "subdir": "skills/shadcn-ui",
+  "version": "6c0cbdb",
+  "tree_hash": "def8b780a6f3857ca964d1a02c144ef6f86fb21c",
+  "file_hashes": {
+    "README.md": "sha256:8a052cb81fe6d0260603a37978ce242ef8a48b8a429c5f9582531a7c9d110773",
+    "SKILL.md": "sha256:2ddfe599ac2ba631ca019f7b6e37ee5df9cd34f83fc016f6ea9d4ba5bbfa0304",
+    "examples/auth-layout.tsx": "sha256:31781d165e2e5098c68eabc089bccb653400fd106712e212f4e94e343c687f46",
+    "examples/data-table.tsx": "sha256:c86cb4872c1d4261a7b21590a273247d54c2f548ceb7b5c269a9e65785c4069a",
+    "examples/form-pattern.tsx": "sha256:8b4c2271d18368069cdfb94e1234a1654dacb530a328c695878f5328516ff03f",
+    "resources/component-catalog.md": "sha256:0215b4d9b04dca45040f68e24ad24ab7862aa1bfe7c0608fa69c012ba65e9650",
+    "resources/customization-guide.md": "sha256:c626feb69599bc0ec16ec67b06a0fae8a55c953138e6dd815e7e4986802fc650",
+    "resources/migration-guide.md": "sha256:81dabd227a1d180fdf2b8ac373a4baaecf421222a8da5885cd1c1703f67ad7a4",
+    "resources/setup-guide.md": "sha256:02ab4cc9e9c2f11e004ab0c79486fa46e7e05127d97ab2c8e48c6c587648a364",
+    "scripts/verify-setup.sh": "sha256:5341d7cb9b6e19050035b1fb4c377e81de5801374c37802d949288001c39edd9"
+  }
+}
