@@ -18,6 +18,9 @@ targets:
   cursor:
     skills:
       path: /Users/qintianxing/.cursor/skills
+  dexto:
+    skills:
+      path: /Users/qintianxing/.agents/skills
   openclaw:
     skills:
       path: /Users/qintianxing/.openclaw/skills
