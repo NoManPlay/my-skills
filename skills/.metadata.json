@@ -75,6 +75,23 @@
         "scripts/type-check.js": "sha256:d7c1d3fc3594fce8e0e107d6303386800bef7106256d3648e0f3a2d8e6f6d17e"
       }
     },
+    "resume-optimizer": {
+      "source": "https://github.com/wyh0626/resume-optimizer",
+      "type": "github",
+      "installed_at": "2026-05-09T11:16:43.522301+08:00",
+      "repo_url": "https://github.com/wyh0626/resume-optimizer.git",
+      "version": "a1eefef",
+      "file_hashes": {
+        "LICENSE": "sha256:74e68217ab8e861eb82d9c54836fbfbcf89c22e552a26948fc5400108d0818af",
+        "README.md": "sha256:aec949dc502565476a9114050867b24de2a15455e5824e73ca1d5326b380f13d",
+        "SKILL.md": "sha256:8b995cdcdc5d6aa41838e4e5f6c274f163607836121b35f36476ae0e03c04e65",
+        "agents/openai.yaml": "sha256:cc8cbd9b9325deccc4ea5d6c74820a5f0d5ce6da0c154155189746aa4d5ce028",
+        "references/audit-checklist.md": "sha256:f6a7f690ae6056ec185858c7c4ae878198e24e9bdb1c5c294b8cff220be814b3",
+        "references/narrative-tools.md": "sha256:883a09cce75ee7be7652787e70222fac6d4d7a18d5aa0cc3a6f7c2aecda3ab02",
+        "references/one-page-resume.md": "sha256:ae732d9bb1f7f5043515eee2e803a650753152999e89f439924349865dc3c1a5",
+        "references/red-flags.md": "sha256:3912d790c9d648cc0e683d7be880d6cbe5709c9aaa8aaf4d421d4842b42b2c9f"
+      }
+    },
     "shadcn-ui": {
       "source": "https://github.com/google-labs-code/stitch-skills.git/skills/shadcn-ui",
       "type": "github-subdir",
