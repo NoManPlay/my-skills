@@ -4,7 +4,7 @@
     "animejs": {
       "source": "git@github.com:NoManPlay/anime-skill.git//skills/animejs",
       "type": "git-ssh-subdir",
-      "installed_at": "2026-05-06T10:05:36.987731+08:00",
+      "installed_at": "2026-05-27T12:32:11.604419+08:00",
       "repo_url": "git@github.com:NoManPlay/anime-skill.git",
       "subdir": "skills/animejs",
       "version": "f26376b",
@@ -21,7 +21,7 @@
     "antd": {
       "source": "https://github.com/ant-design/antd-skill.git/skills/antd",
       "type": "github-subdir",
-      "installed_at": "2026-05-06T10:05:38.804782+08:00",
+      "installed_at": "2026-05-27T12:32:56.047611+08:00",
       "repo_url": "https://github.com/ant-design/antd-skill.git",
       "subdir": "skills/antd",
       "version": "e65d2d3",
@@ -34,7 +34,7 @@
     "karpathy-guidelines": {
       "source": "https://github.com/forrestchang/andrej-karpathy-skills.git/skills/karpathy-guidelines",
       "type": "github-subdir",
-      "installed_at": "2026-05-06T10:07:11.052181+08:00",
+      "installed_at": "2026-05-27T12:32:48.839301+08:00",
       "repo_url": "https://github.com/forrestchang/andrej-karpathy-skills.git",
       "subdir": "skills/karpathy-guidelines",
       "version": "2c60614",
@@ -76,9 +76,9 @@
       }
     },
     "resume-optimizer": {
-      "source": "https://github.com/wyh0626/resume-optimizer",
+      "source": "https://github.com/wyh0626/resume-optimizer.git",
       "type": "github",
-      "installed_at": "2026-05-09T11:16:43.522301+08:00",
+      "installed_at": "2026-05-27T12:32:50.943618+08:00",
       "repo_url": "https://github.com/wyh0626/resume-optimizer.git",
       "version": "a1eefef",
       "file_hashes": {
@@ -140,10 +140,10 @@
     "theme-factory": {
       "source": "https://github.com/anthropics/skills.git/skills/theme-factory",
       "type": "github-subdir",
-      "installed_at": "2026-05-06T10:05:44.663794+08:00",
+      "installed_at": "2026-05-27T12:27:36.260814+08:00",
       "repo_url": "https://github.com/anthropics/skills.git",
       "subdir": "skills/theme-factory",
-      "version": "d230a6d",
+      "version": "690f15c",
       "tree_hash": "e05534d132fb1b21f9917840874758e30f0a9b1a",
       "file_hashes": {
         "LICENSE.txt": "sha256:bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
@@ -202,7 +202,7 @@
     "zustand-state-management": {
       "source": "https://github.com/Mindrally/skills.git/zustand-state-management",
       "type": "github-subdir",
-      "installed_at": "2026-05-06T10:06:52.513399+08:00",
+      "installed_at": "2026-05-27T12:32:54.146165+08:00",
       "repo_url": "https://github.com/Mindrally/skills.git",
       "subdir": "zustand-state-management",
       "version": "47f47c1",
