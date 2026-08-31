@@ -1,0 +1,4 @@
+interface:
+  display_name: "Delivery Admin"
+  short_description: "Coordinate scoped software delivery and acceptance"
+  default_prompt: "Use $delivery-admin to coordinate this software change through planning, execution, and evidence-based acceptance."

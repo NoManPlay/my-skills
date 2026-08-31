@@ -1,4 +1,0 @@
-interface:
-  display_name: "Anime.js"
-  short_description: "Build and debug Anime.js animations"
-  default_prompt: "Use $animejs to implement or debug a timeline, stagger, scope, or WAAPI animation."

@@ -1,27 +1,10 @@
 {
   "version": 1,
   "entries": {
-    "animejs": {
-      "source": "git@github.com:NoManPlay/anime-skill.git//skills/animejs",
-      "type": "git-ssh-subdir",
-      "installed_at": "2026-05-27T12:32:11.604419+08:00",
-      "repo_url": "git@github.com:NoManPlay/anime-skill.git",
-      "subdir": "skills/animejs",
-      "version": "f26376b",
-      "tree_hash": "9ede0db9cdd03796951c20c79ca1eb931f418069",
-      "file_hashes": {
-        "SKILL.md": "sha256:7a3ead97d42f9a95c845289121cab469c0a6e980a57abf0a8f66ba0ae11385b6",
-        "agents/openai.yaml": "sha256:39bb149d25777f2d7b20d20c4f6389afb5bf89aa0b6c9761351001bd027a971a",
-        "references/adaptation-matrix.md": "sha256:cfe09ab13b19cba2526ccc4a1a499cd4d62029d2ffb342e56d135cb045bb2750",
-        "references/implementation-patterns.md": "sha256:84081fc547252fea9f39609c31f0984b65864019c0dc6146c295d410449c7952",
-        "references/migration-v3-to-v4.md": "sha256:f3380491bcf3c523bf57ab83e471947ad3bb0b7f0d609621c0091e4ae264564d",
-        "references/module-map.md": "sha256:ddd7bf0c23b2ffc30d106d329ed4aa35c0a45dabc5e3d40581043d9e502e1f56"
-      }
-    },
     "antd": {
       "source": "https://github.com/ant-design/antd-skill.git/skills/antd",
       "type": "github-subdir",
-      "installed_at": "2026-05-27T12:32:56.047611+08:00",
+      "installed_at": "2026-08-31T10:35:12.61845+08:00",
       "repo_url": "https://github.com/ant-design/antd-skill.git",
       "subdir": "skills/antd",
       "version": "e65d2d3",
@@ -31,10 +14,19 @@
         "SKILL.md": "sha256:2e02be487e826c1c9e5209c87c19d37dcbb1b848945ce58a6cfa6f5069620abe"
       }
     },
+    "delivery-admin": {
+      "source": "/Users/qintianxing/.codex/skills/delivery-admin",
+      "type": "local",
+      "installed_at": "2026-08-31T10:40:06.882738+08:00",
+      "file_hashes": {
+        "SKILL.md": "sha256:eb52310e2f5ce4228bc7721076e10969c9958aede0aeac421f793312986d5f13",
+        "agents/openai.yaml": "sha256:0df15733fc11a71fbfd760c3c4be0edc1197d8991d1f444a14724762b4e33ca3"
+      }
+    },
     "karpathy-guidelines": {
       "source": "https://github.com/forrestchang/andrej-karpathy-skills.git/skills/karpathy-guidelines",
       "type": "github-subdir",
-      "installed_at": "2026-05-27T12:32:48.839301+08:00",
+      "installed_at": "2026-08-31T10:35:14.410701+08:00",
       "repo_url": "https://github.com/forrestchang/andrej-karpathy-skills.git",
       "subdir": "skills/karpathy-guidelines",
       "version": "2c60614",
@@ -43,95 +35,45 @@
         "SKILL.md": "sha256:6e22cc54cb02a5e98ae42d06d9d7292db0c1b43894831b32879beb0166b2aea7"
       }
     },
-    "mf": {
-      "source": "https://github.com/module-federation/core.git/skills/mf",
-      "type": "github-subdir",
-      "installed_at": "2026-05-06T10:07:58.891464+08:00",
-      "repo_url": "https://github.com/module-federation/core.git",
-      "subdir": "skills/mf",
-      "version": "5d4095d",
-      "tree_hash": "d3ce25a8858c5bd74b445b118d91df0fb71196ce",
-      "file_hashes": {
-        "SKILL.md": "sha256:057f742ba924aa1251c54460718fac66efa675d74abad3ad0e105093f2a113f5",
-        "reference/bridge-check.md": "sha256:ff80bbbf9caf871ecc863c8d1aaf769f6150e989d4536005680891f8f49baffe",
-        "reference/browser-debug/long-chain.md": "sha256:b4c2c0547720f5ab3848b8e42f42678939de58d317acd24d0e36e46fd59581fe",
-        "reference/browser-debug/setup.md": "sha256:1efaddac552202ac286952abd1a6928563270cd66779add6e93e133215765ba8",
-        "reference/browser-debug/single-capture.md": "sha256:5d58d277405ec7fc600f6491c862ce40d2401e4ac9d7cc2385687ae462bba3b0",
-        "reference/config-check.md": "sha256:d233931330c5bc1e813ef07614539a1dcbef72f750e70316aa30ef6867b793b8",
-        "reference/context.md": "sha256:bb0ba12594c78b13a7f5ce8597b6e7975f5ac85ed42fe830e38501a647e7b999",
-        "reference/docs.md": "sha256:ba2c053b2effbc9d98bb774963e8fe90dfaa06f7d60c73d75ef63afa17beba56",
-        "reference/integrate.md": "sha256:7d4a26c16c9c6c8a31dbaa0665bba1e239454e45242c57a18943ad35a11b8419",
-        "reference/module-info.md": "sha256:90a21669474c6ed343d3efc521f08ce8ed5ca50dd282d415a3745d9eefe0f1bb",
-        "reference/perf.md": "sha256:dd3c6e95558bfb2a6219a36ce363ca2a02ccc3314a85cd5ecfe5b242e0301cce",
-        "reference/runtime-error.md": "sha256:ba80c2b02f36683a2816f1d1d96c208a2c044bd6dc0f68dfa50f9a9c76010825",
-        "reference/shared-deps.md": "sha256:d531ba58309bd872783ade06b039f556897522bef0f847078494dddd721281f9",
-        "reference/type-check.md": "sha256:5f0ea234f753281dd226eba6eb177ecf0546d1628f11721d6f35ac356afa5dfa",
-        "scripts/bridge-check.js": "sha256:f34c2908516c666bb9ff3d115fc29d2bf57e41c068ad10d96f08f9aaa0484d36",
-        "scripts/browser-capture.mjs": "sha256:f44f57030d98feb28fb575393e593b22c2203f8d314c4e4cf83319c601740f39",
-        "scripts/config-exposes-check.js": "sha256:1a51c1aa2c3f6a99a4ae2615a612fb2df9601ffc2978be0fb663ab8a49cd50ae",
-        "scripts/module-info.js": "sha256:3f65ceed2bc954552c9cd5080f6a354fda2f820e2c0162b6bc3245a90af8eedf",
-        "scripts/performance-check.js": "sha256:5d40e3e3374baf25927ca54c3a10f8557a48fc041d9717e6abe604dd810baaec",
-        "scripts/shared-config-check.js": "sha256:cb9aa5abf3fcec3ad761a6167b6bc89e835e79697e226f9f359b9116eb7cb765",
-        "scripts/type-check.js": "sha256:d7c1d3fc3594fce8e0e107d6303386800bef7106256d3648e0f3a2d8e6f6d17e"
-      }
-    },
     "resume-optimizer": {
       "source": "https://github.com/wyh0626/resume-optimizer.git",
       "type": "github",
-      "installed_at": "2026-05-27T12:32:50.943618+08:00",
+      "installed_at": "2026-08-31T10:35:17.306146+08:00",
       "repo_url": "https://github.com/wyh0626/resume-optimizer.git",
-      "version": "a1eefef",
+      "version": "fb16670",
       "file_hashes": {
         "LICENSE": "sha256:74e68217ab8e861eb82d9c54836fbfbcf89c22e552a26948fc5400108d0818af",
-        "README.md": "sha256:aec949dc502565476a9114050867b24de2a15455e5824e73ca1d5326b380f13d",
+        "README.md": "sha256:b82007ddde5d044e83163e9849fa78531b86ffb56f981c4cf8b2ab01c398d2db",
         "SKILL.md": "sha256:8b995cdcdc5d6aa41838e4e5f6c274f163607836121b35f36476ae0e03c04e65",
         "agents/openai.yaml": "sha256:cc8cbd9b9325deccc4ea5d6c74820a5f0d5ce6da0c154155189746aa4d5ce028",
+        "assets/resume-kami.png": "sha256:a7d6d5ae4a5e191e99bcdc30725b4d06bc910cb3fb66a2813aa7f06fdee1fa99",
+        "assets/resume-white.png": "sha256:f2ae28fdb6dd7dea249aec2f22c0e3e00daa07923ba0aa7745d1c19ebb17e2e7",
+        "assets/star-growth.png": "sha256:9fac9e7a45a60e94c9c88b81be0790ca33c216231e628d557c679e447f747fe9",
         "references/audit-checklist.md": "sha256:f6a7f690ae6056ec185858c7c4ae878198e24e9bdb1c5c294b8cff220be814b3",
         "references/narrative-tools.md": "sha256:883a09cce75ee7be7652787e70222fac6d4d7a18d5aa0cc3a6f7c2aecda3ab02",
         "references/one-page-resume.md": "sha256:ae732d9bb1f7f5043515eee2e803a650753152999e89f439924349865dc3c1a5",
         "references/red-flags.md": "sha256:3912d790c9d648cc0e683d7be880d6cbe5709c9aaa8aaf4d421d4842b42b2c9f"
       }
     },
-    "shadcn-ui": {
-      "source": "https://github.com/google-labs-code/stitch-skills.git/skills/shadcn-ui",
-      "type": "github-subdir",
-      "installed_at": "2026-05-06T10:08:01.699838+08:00",
-      "repo_url": "https://github.com/google-labs-code/stitch-skills.git",
-      "subdir": "skills/shadcn-ui",
-      "version": "6c0cbdb",
-      "tree_hash": "def8b780a6f3857ca964d1a02c144ef6f86fb21c",
-      "file_hashes": {
-        "README.md": "sha256:8a052cb81fe6d0260603a37978ce242ef8a48b8a429c5f9582531a7c9d110773",
-        "SKILL.md": "sha256:2ddfe599ac2ba631ca019f7b6e37ee5df9cd34f83fc016f6ea9d4ba5bbfa0304",
-        "examples/auth-layout.tsx": "sha256:31781d165e2e5098c68eabc089bccb653400fd106712e212f4e94e343c687f46",
-        "examples/data-table.tsx": "sha256:c86cb4872c1d4261a7b21590a273247d54c2f548ceb7b5c269a9e65785c4069a",
-        "examples/form-pattern.tsx": "sha256:8b4c2271d18368069cdfb94e1234a1654dacb530a328c695878f5328516ff03f",
-        "resources/component-catalog.md": "sha256:0215b4d9b04dca45040f68e24ad24ab7862aa1bfe7c0608fa69c012ba65e9650",
-        "resources/customization-guide.md": "sha256:c626feb69599bc0ec16ec67b06a0fae8a55c953138e6dd815e7e4986802fc650",
-        "resources/migration-guide.md": "sha256:81dabd227a1d180fdf2b8ac373a4baaecf421222a8da5885cd1c1703f67ad7a4",
-        "resources/setup-guide.md": "sha256:02ab4cc9e9c2f11e004ab0c79486fa46e7e05127d97ab2c8e48c6c587648a364",
-        "scripts/verify-setup.sh": "sha256:5341d7cb9b6e19050035b1fb4c377e81de5801374c37802d949288001c39edd9"
-      }
-    },
     "skillshare": {
       "source": "https://github.com/runkids/skillshare.git/skills/skillshare",
       "type": "github-subdir",
-      "installed_at": "2026-05-06T10:09:21.7827+08:00",
+      "installed_at": "2026-08-31T10:35:56.025992+08:00",
       "repo_url": "https://github.com/runkids/skillshare.git",
       "subdir": "skills/skillshare",
-      "version": "5975c11",
-      "tree_hash": "97725b3566f0a8246f19f43df4f2805cd993034d",
+      "version": "47bda2a",
+      "tree_hash": "fdf59a2844aab6bee430b45983ba17cf2d0c1ed4",
       "file_hashes": {
-        "SKILL.md": "sha256:abe1875cd6cc73263828b2f523d18c44059d8e7f07a676320165654d59f035b4",
+        "SKILL.md": "sha256:245dc5b807771f464d7aae818f2d850dcf82b0f05633cacb14e821baf18b02c8",
         "references/TROUBLESHOOTING.md": "sha256:14855dbd2f20ad7042941959f257c79f768d103e89e55d74d8c3b3d38f9ff5ee",
         "references/audit.md": "sha256:85a31c32f17f39ce2baa5189a8004c6adec506e5fcf7d20378caa103b015fd5d",
-        "references/backup.md": "sha256:96e2e8d5e2d7cfb8765c2eebb4e6d733b79258de8b3d974fca8972557f7326a6",
-        "references/extras.md": "sha256:27529c7fba6335efabb38a2a5dac1c0e4a0b79d16d0188d3f98dad2068ec4bdf",
+        "references/backup.md": "sha256:0d85d481fcb0f7ca88c31d1ca56d393a9ae18b8ac4f6c050edd62840cbd45257",
+        "references/extras.md": "sha256:c133ccb6a2da342fbf05919c27855cb1de124042f8654396e50ee82a2b7e40e1",
         "references/init.md": "sha256:41d99a2a49f576e1a2354312856ccf730f8d19d4c8d35c592585d40bc2d14d82",
-        "references/install.md": "sha256:2b444bfcd211fae59421631ecd49331b4de287c311354f8ed3ca19f204d223db",
+        "references/install.md": "sha256:e59b9b1169fb72f063249f56b5fc7dee46bd3f9b9d2fe6d7d73b3319e14ff165",
         "references/log.md": "sha256:406e85525f53f4deaa0f48bf8b3b53db3e032b99f5a0e926c84542d51b3a3625",
-        "references/status.md": "sha256:0143c8250ecbedfa14607b82cbfb23107294b6c1e053b5726629556b7a47412c",
-        "references/sync.md": "sha256:75577dce829fda6050b3b761915b70d9aef0d6bdb3c010d2fef7b7b22e226a8e",
+        "references/status.md": "sha256:bbc4d801d9583ce79b848f861b07382157c8fb407e89e31358b0bf6acd34334f",
+        "references/sync.md": "sha256:00877a4a9c1ca0c02a8601aad694cadce61c3facbe57603d36c0ef937028f658",
         "references/targets.md": "sha256:130b0b07b17a88d4bc09af0262a6b161421946f5442295dc5bc828f95226763e",
         "references/trash.md": "sha256:fb94aa6b71d469fa8f6b5e728fcab531b6eb010a2092389b02eaaadf3ebc98cf",
         "scripts/run.sh": "sha256:e434ebdb7d3ae0b37c00ddc36687bc975da9e766b8cb863f9aed9a624ebbdfa9"
@@ -140,10 +82,10 @@
     "theme-factory": {
       "source": "https://github.com/anthropics/skills.git/skills/theme-factory",
       "type": "github-subdir",
-      "installed_at": "2026-05-27T12:27:36.260814+08:00",
+      "installed_at": "2026-08-31T10:36:02.720311+08:00",
       "repo_url": "https://github.com/anthropics/skills.git",
       "subdir": "skills/theme-factory",
-      "version": "690f15c",
+      "version": "3b3fad9",
       "tree_hash": "e05534d132fb1b21f9917840874758e30f0a9b1a",
       "file_hashes": {
         "LICENSE.txt": "sha256:bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
@@ -161,51 +103,13 @@
         "themes/tech-innovation.md": "sha256:183648163026dd5eeba3df5effa335b55ba333c3ee1fe215278605e55f40a52a"
       }
     },
-    "ui-ux-pro-max": {
-      "source": "https://github.com/sickn33/antigravity-awesome-skills.git/plugins/antigravity-awesome-skills/skills/ui-ux-pro-max",
-      "type": "github-subdir",
-      "installed_at": "2026-05-06T10:06:46.251909+08:00",
-      "repo_url": "https://github.com/sickn33/antigravity-awesome-skills.git",
-      "subdir": "plugins/antigravity-awesome-skills/skills/ui-ux-pro-max",
-      "version": "2786468",
-      "tree_hash": "da67688bd508539c2ff921f57d66c51ec1b4b71c",
-      "file_hashes": {
-        "SKILL.md": "sha256:2e48567ad740cc6ef2f433174804aa89afa51f36e2b7edc6c1479d7a935ffe2b",
-        "data/charts.csv": "sha256:3b0cc1b287ad48d6989e2caf8bf84d4bc434438da62feb08259ffde03d153877",
-        "data/colors.csv": "sha256:bd1fd6cf7d93408c0250ba383e01bea2ad1f0a1c9dccd746636c6a80ed937fbf",
-        "data/icons.csv": "sha256:26be5e47c4c3fc7acae52ac8bbfaf1bf9e5ddc9c01808953a3636f8615b9de9f",
-        "data/landing.csv": "sha256:7ac095129592c6c93f10ae3bc687b22bb051c33944597613f39e3a8f7646fe6e",
-        "data/products.csv": "sha256:5359e3037dcb84e99c792ea13dd44f5b78ab6a53557afb309cf19140512aaf5b",
-        "data/prompts.csv": "sha256:0f5acb17260f64fcc96668414d0e8b37418dcb5eec043f49b986b99399831ff3",
-        "data/react-performance.csv": "sha256:904c8afcda229629545912dde0e8ac37503757131f0169f80b016f1f58c4fd3f",
-        "data/stacks/flutter.csv": "sha256:e470e6bc2bcd8562667cc764d1e1afb0be0a30ca4dc9ec12fa18b19d46f156bd",
-        "data/stacks/html-tailwind.csv": "sha256:1f004891dd189f6bc2a7717401e3100244326e7e2f3963a79bf7b2349d85e091",
-        "data/stacks/nextjs.csv": "sha256:06a8e8c13bd44696c6ebb4cb6c4d8dea440e3de8cce77616512529ed29258f0c",
-        "data/stacks/nuxt-ui.csv": "sha256:05d6e74501b2b6a636faed32450622759f49a5bcafad971f5f4e7eba0eb7be71",
-        "data/stacks/nuxtjs.csv": "sha256:f7a3f2d9542856d00199f85c6c023b7c284cc698e2e6e12d61afce2edacb24d6",
-        "data/stacks/react-native.csv": "sha256:a08ca77fcf6b6d9531982dce465366296013bfcf12d2938ac72ad57cf0c4f085",
-        "data/stacks/react.csv": "sha256:b6e3eb0e4c9c01bd00ffb951d5ca224a19d488b4544c75436f48cf92ff12bf45",
-        "data/stacks/shadcn.csv": "sha256:395c2e415ef6f48a474acccdc8eb2c7258a6ed751a5037ba171a2d8823e02ded",
-        "data/stacks/svelte.csv": "sha256:bc8d158994a8bdf412830a9dd5e5a5534edd2f367a6e50e0ebd4d76f592dfa3f",
-        "data/stacks/swiftui.csv": "sha256:e87cb9eee208bb753bdab96d4a261c7f830c4317ee90ec098316b248fc32be85",
-        "data/stacks/vue.csv": "sha256:9b793c3f4eec85f77a758c09322f2b62f3b3ca549bb713ccf0849ef885934395",
-        "data/styles.csv": "sha256:899a7c3a7b07a16d783b4b2fa3662c3f01327f5bcffb634a68d2309bb3223a26",
-        "data/typography.csv": "sha256:6c0cd9db74f75d384773b347e1ddac42692c8d00c56790e8a0e619bfa4b9537d",
-        "data/ui-reasoning.csv": "sha256:58fc52fff69f62709f8c7dd460de6f6693699ea820f24287f3301a427c2b554e",
-        "data/ux-guidelines.csv": "sha256:1870ee048f2a2bdd60709f8f7adf7f3b6dcad560bc005c8b2915a8ac8639820d",
-        "data/web-interface.csv": "sha256:10bfc24e09a6a15db8309e6ef9b6881e1d4af97dffb7c99418aefb8e30df7d54",
-        "scripts/core.py": "sha256:e91bcee14c39f84d5222c71bf75df3b50d36f514cf98ca1178f083e14d598db0",
-        "scripts/design_system.py": "sha256:3bfd1aa556a80cd588fb169d0c8066bcfd6ebf00c969e1408f031c82376a2227",
-        "scripts/search.py": "sha256:fec2ed2e6031c2fe44f8e22e7c910555476acc1e370797cd90c047e7e52bd78b"
-      }
-    },
     "zustand-state-management": {
       "source": "https://github.com/Mindrally/skills.git/zustand-state-management",
       "type": "github-subdir",
-      "installed_at": "2026-05-27T12:32:54.146165+08:00",
+      "installed_at": "2026-08-31T10:36:05.152023+08:00",
       "repo_url": "https://github.com/Mindrally/skills.git",
       "subdir": "zustand-state-management",
-      "version": "47f47c1",
+      "version": "05a7130",
       "tree_hash": "890614efdf722f1c11bce74894af89d3cde5fded",
       "file_hashes": {
         "SKILL.md": "sha256:857f2477df1bd7c8b9e381fb7de79551a0488771d89aec90238e141971385bc7"
